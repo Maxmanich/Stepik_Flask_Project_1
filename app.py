@@ -38,5 +38,5 @@ def render_tours(id):
                            departures=departures)
 
 
-#if __name__ == '__main__':
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run()
